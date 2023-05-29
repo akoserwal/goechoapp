@@ -1,0 +1,25 @@
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore temporary *.swp files
+*.swp
+
+
+# Ignore built binaries
+bin/goechoapp
+
+go-echoapp.iml
+
+# Ignore editor config
+.vscode
+
+# Ignore IntelliJ config
+.idea/
+.idea/workspace.xml
+
+
+
+
